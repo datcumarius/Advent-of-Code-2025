@@ -1,7 +1,7 @@
 dial = 50
 cnt = 0
-with open("input.txt") as fisier:
-    for line in fisier:
+with open("Day01/input.txt") as file:
+    for line in file:
         for _ in range(int(line[1:])):
             if line[0] == "L":
                 dial -= 1
